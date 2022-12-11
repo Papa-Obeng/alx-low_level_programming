@@ -1,3 +1,7 @@
+/*
+ *   File: 5-printf.c
+ *   Auth: Timothy o Nkrumah
+ */
 #include <stdio.h>
 /** The main function print the strings of words
  * Using the escape character, the puts function prints the strings

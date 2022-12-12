@@ -3,13 +3,13 @@
  *   Auth: Timothy o Nkrumah
  */
 #include <stdio.h>
-/** 
- * The main function print the strings of words
+/**
+ * main - Entry point
  * Using the escape character, the puts function prints the strings
- * the return function evaluates to zero
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-       	return (0);
+	return (0);
 }

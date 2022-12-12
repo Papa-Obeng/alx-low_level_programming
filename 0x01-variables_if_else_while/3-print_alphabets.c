@@ -9,10 +9,14 @@ int main(void)
 	int w = 65, x = 90;
 	int y = 97, z = 122;
 
-	while (w <= x && y <= z)
+	while (w <= x)
 	{
 		putchar(w);
 		w++;
+	}
+
+	while (y <= z)
+	{
 		putchar(y);
 		y++;
 	}

@@ -9,8 +9,9 @@ int main(void)
 {
 	printf("Size of a char %zu\n: " sizeof(char)" byte");
 	printf("Size of an int %zu\n: " sizeof(int) "bytes");
+	printf("Size of a long int %zu\n: " sizeof(long int) "bytes");
+	printf("Size of a long long int %zu\n: " sizeof(long long int) "bytes");
 	printf("Size of a float %zu\n: " sizeof(float) "bytes");
-	printf("Size of a double %zu\n: " sizeof(double) "bytes");
 	return(0);
 }
 

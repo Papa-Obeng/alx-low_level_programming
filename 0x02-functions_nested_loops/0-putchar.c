@@ -2,11 +2,11 @@
 
 /**
  * main - Entry point
- * lower_case prints the letters
- * return: Always 0
+ * return: Always 0 (Sucess)
  */
 
 int main(void)
+	/* main.h will print the letter */
 {
 	_putchar('_');
 	_putchar('p');

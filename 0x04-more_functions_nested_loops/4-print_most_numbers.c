@@ -3,20 +3,18 @@
 /**
  * print_most_numbers - print numbers from 0 t 9 except 2 and 4
  *
- * Return: Always 0 (Success)
  */
 
 void print_most_numbers(void)
 {
-	int a;
+	int i;
 
-	for (a = '0'; a <= '9'; a++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		if (a == '2' || a == '4')
+		if (i != '2' &&  i != '4')
 		{
-			_putchar(',');
+			_putchar(i);
 		}
-		else
-			_putchar(a);
 	}
+	_putchar('\n');
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -isdigit funtion - The function that checks whether the input is a digit
+ * _isdigit - Determine if digit
  *  @c: The input number to be checked
  *
  *  Return: Returns boolean

@@ -1,23 +1,25 @@
 #include "main.h"
-
 /**
- * print_square - the function that prints square using #
- * @size - is the sixe of the square
- * @size = 0 - the function will only print a new line
+ * print_square - prints square stuff
+ *
+ * @size: integer to set square size
  */
-
 void print_square(int size)
 {
-	int i, c;
+	int i;
+	int j;
 
-	size = 8;
-
-	for (i = 1; i <= size; i++)
+	if (size <= 0)
 	{
-		for (c = 1; c <= size; c++)
-		{
-			_putchar('#');
-		}
 		_putchar('\n');
+	}else
+	{
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+		}
 	}
 }

@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * more_functions_nested_loops-the function that prints 10x numbers from 0 to 14
- * @co: the number of times the print will happen
- * @n: the number that will be printed
+ * more_numbers - prints the numbers
+ *
  */
-
 void more_numbers(void)
 {
-	int co = 0;
+	int i;
+	int h;
 
-	while (co < 10)
+	for (h = 0; h <= 9; h++)
 	{
-		int n;
-
-		for (n = '0'; n <= '14'; n++)
+		for (i = 0; i <= 14; i++)
 		{
-			_putchar(n);
+			if (i > 9)
+			{
+				_putchar(i / 10 + '0');
+			}
+			_putchar(i % 10 + '0');
 		}
 		_putchar('\n');
-		co++;
 	}
 }

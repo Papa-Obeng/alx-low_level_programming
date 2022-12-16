@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * mul function - The mul function will multiply two integers
- * @a, @b - The two integer input to be multiplied
+ * mul - multiplier
+ * @a - int to mul
+ * @b - int to mul
  * result - the variable to hold the value after multiplication
  * Return: result
  */

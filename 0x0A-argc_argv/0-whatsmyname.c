@@ -8,7 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%s\n", &*argv);
+	char name[] = "mynameis";
 
+	if (argc > 0)
+	{
+	printf("%s\n", name);
+	}
 	return (0);
 }

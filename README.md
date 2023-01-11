@@ -1,0 +1,10 @@
+A repository for C-Programming and it contains the following projects:
+[0x00. C -](Hello, World)
+[0x01. C -] (Variables, if, else, while)
+[0x02. C -] (Functions, nested loops)
+[0x03. C -] (Debugging)
+[0x05. C -] (Pointers, arrays and strings)
+[0x09. C -] (Static libraries)
+[0x08. C -] (Recursion)
+[0x0B. C -] (malloc, free)
+[0x0A. C -] (argc, argv)

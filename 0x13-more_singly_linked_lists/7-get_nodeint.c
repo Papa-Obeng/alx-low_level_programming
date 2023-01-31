@@ -1,4 +1,4 @@
-nclude "lists.h"
+#include "lists.h"
 /**
  * get_nodeint_at_index - finds a given node in a linked list
  * @head : pointer to the head of the linked list
